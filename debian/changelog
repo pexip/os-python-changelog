@@ -1,0 +1,124 @@
+python-changelog (0.5.5-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.5.1, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 30 Nov 2020 14:17:07 +0300
+
+python-changelog (0.5.4-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+  * Update Homepage field and metadata for upstream move to GitHub.
+  * Update to debhelper compat level 13.
+  * Set Rules-Requires-Root: no.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 06 Oct 2020 15:28:06 +0300
+
+python-changelog (0.5.3-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 12 Jul 2020 11:30:14 -0400
+
+python-changelog (0.5.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump Standards-Version to 4.5.0, no changes needed.
+
+ -- Piotr Ożarowski <piotr@debian.org>  Fri, 15 May 2020 11:51:23 +0200
+
+python-changelog (0.4.2-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+  * Bump Standards-Version to 4.4.1.
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #937642
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 04 Jan 2020 00:38:09 -0500
+
+python-changelog (0.4.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - 0001-Make-the-references-reproducible.patch removed, applied upstream
+  * Bump Standards-Version to 4.3.0, no changes needed.
+
+ -- Piotr Ożarowski <piotr@debian.org>  Sun, 30 Dec 2018 21:49:31 +0100
+
+python-changelog (0.4.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Make the references reproducible (Closes: #909936)
+  * Enable autopkgtest-pkg-python testsuite
+  * Add upstream metadata
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 20:29:27 +0200
+
+python-changelog (0.4.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop dh_installchangelogs override, #861852 has been fixed.
+  * Bump Standards-Version to 4.2.1, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 18 Sep 2018 15:13:55 +0300
+
+python-changelog (0.4.0-1) unstable; urgency=medium
+
+  * Switch from git-dpm to gbp.
+  * New upstream release.
+    - Correctly sorts uncategorized tags (closes: #883716).
+  * Drop dont-use-sphinx-compat.patch, applied upstream.
+  * Update to debhelper compat level 11.
+  * Do not install the ‘changelog’ script, its name is too generic.
+  * Bump Standards-Version to 4.1.4, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 19 May 2018 15:27:52 +0300
+
+python-changelog (0.3.5-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/control: Remove trailing whitespaces
+
+  [ Andrej Shadura ]
+  * Build-depend on sphinx, don't use compat code,
+    enable tests (Closes: #896251).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 22 Apr 2018 14:37:02 +0200
+
+python-changelog (0.3.5-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Fixed VCS URL (https)
+
+  [ Dmitry Shachnev ]
+  * New upstream bugfix release.
+  * Bump Standards-Version to 3.9.8, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 13 Nov 2016 19:17:55 +0300
+
+python-changelog (0.3.4-2) unstable; urgency=medium
+
+  * Do not attempt to run tests as they do not exist (closes: #800671).
+  * Update debian/watch to point to pypi.debian.net redirector.
+  * Update my e-mail address.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Fix Lintian license-name-not-unique warning.
+  * Fix Lintian warning about duplicate descriptions.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 03 Oct 2015 20:42:15 +0300
+
+python-changelog (0.3.4-1) unstable; urgency=low
+
+  * Initial release (closes: #735209)
+
+ -- Piotr Ożarowski <piotr@debian.org>  Mon, 13 Jan 2014 21:51:27 +0100
